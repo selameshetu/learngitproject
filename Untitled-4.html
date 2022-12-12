@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<style>
+   div{
+       width: 100px;
+       height: 100px;
+       background: blue;
+       color: white;
+       margin: 15px;
+       transition: all 1s linear;
+   } 
+   div:hover{
+       transform: scaleX(40)
+   }
+   .ease-in{
+       transition-timing-function: ease-in;
+   }
+   .ease-out{
+       transition-timing-function: ease-out;
+   }
+   .ease-in-out{
+       transition-timing-function: ease-in-out;
+   }
+   
+</style>
+
+ </head> 
+ <body>
+<div class="default">default</div>
+<div class="ease">ease</div>
+<div class="linear">linear</div>
+<div class="ease-in">ease-in</div>
+<div class="ease-out">ease-out</div>
+<div class="ease-in-out">ease-in-out</div>
+</html>

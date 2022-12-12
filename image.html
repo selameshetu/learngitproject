@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<style>
+    img{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    }
+    .all{
+        margin: 200px;
+        width: 70vw;
+        height: 70vw;
+        border: 5px solid red;
+        position: relative;
+    }
+    .one{
+        top: 0;
+        left: 0;
+        
+    }
+    .selam{
+        position: relative;
+    }
+    .cat{
+        top: 0;
+        left: 0;
+    }
+    .selam  .cat{
+        opacity: 0;
+        pointer-events: none;
+        position: absolute;
+    }
+    .selam:hover .cat{
+        cursor: pointer;
+        opacity: 1;
+    } 
+    .two{
+        top: 10%;
+        left: 10%;  
+        z-index: -1; 
+    }
+    .three{
+        top: 20%;
+        left: 20%;
+        z-index: 100;
+    }
+    .four{
+        top: 30%;
+        left: 30%;
+        position: relative;
+        z-index: 200;
+    }
+</style>
+ </head> 
+ <body>
+     <div class="all">
+         <div class="selam">
+     <img src="cat.jpg" class="one" alt="">
+     <div class="cat">cat</div>
+         </div>
+        <img src="dog.jpg" class="two" alt="">
+        <img src="dog2.jpg" class="three" alt="">
+        <img src="cat2.jpg" class="four" alt="">
+     </div>
+</body>  
+</html>

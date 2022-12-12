@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: 1.5rem "nuito", sans-serif;
+            min-height: 100vh;
+            background-color: #475569;
+            background-image:radial-gradient(whitesmoke, #475569);
+            display: flex;
+            flex-direction: column;
+        }
+     .header, .nav, .main, .footer{
+         display: grid;
+         place-content: center;
+         text-align: center;
+     }
+     .header,.footer{
+         position: sticky;
+         background-color: whitesmoke;
+         color: black;
+         display: grid;
+         grid-template-columns: 100%;
+         text-align: center;
+     }
+     .header{
+         top: 0;
+     }
+     .main{
+         flex-grow: 1;
+         background-color: aquamarine;
+         background-size: cover;
+        
+     }
+     .footer{
+         bottom: 0;
+         margin-bottom: 10px;
+         height: 20px;
+         background-color: whitesmoke;
+     }
+     @media screen and(min-width:800px) {
+       body{
+           background-color: blue;
+           background-image: radial-gradient(blue, black);
+       } 
+       .nav{
+           display: none;
+       } 
+     }
+    
+    </style>
+</head>
+<body>
+  <div class="header">header</div>
+  <div class="nav">nav</div>
+  <div class="main">main</div>
+  <div class="footer">Footer</div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    background:url(cat2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}   
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: arial;
+} 
+.log{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-bottom: 20px;
+} 
+ul{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 300px;
+    display: inline-block;
+
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 100px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 24px;
+    margin-right: 20px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline:none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin-top: auto;
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+}
+.content:par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}

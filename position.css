@@ -1,0 +1,52 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 52px;
+    height: 75px;
+    align-items: center;
+    margin-top: -15px;
+    z-index: 200;
+    
+}
+.absolute{
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+
+}
+
+.sidebar-link{
+    
+    left: 0;
+    height: 95px;
+    width: 80px;
+    top: 0px;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-right: 40px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+    
+.ho{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.sidebar-link:hover{
+    background-color: rgb(235, 235, 235);
+}
+.sidebar-link img{
+    height: 40px;
+    margin-bottom: 4px;
+}
+.home{
+    text-align: center;
+}
+

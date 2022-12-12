@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<style>
+   div{
+       width: 200px;
+       height: 100px;
+       color: white;
+       margin: 10px;
+   }
+   .transition:hover{
+       background:yellow;
+       transform:translateX(100px);
+   }
+   .animation{
+      /* background: blue;
+       animation-name: move;
+       animation-duration: 2s;
+       animation-iteration-count: 2; */
+       animation: move 3s infinite;
+   }
+   .transition{
+       background: green;
+   }
+   @keyframes move{
+   0%{
+       transform:translateX(100px);
+       transition: ease(ease);
+   }
+   
+   50%{
+       transform:translateX(100px);
+       background: yellow;
+   }
+       75%{
+       transform:translateX(-200px);
+       background: red;
+   }
+   100%{
+       transform:translateX(-200px);
+       background:blue;
+   }
+</style>
+
+ </head> 
+ <body>
+<div class="transition">transition</div>
+<div class="animation">animation</div>
+</body>
+</html>

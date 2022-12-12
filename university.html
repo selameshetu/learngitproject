@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       
+    </style>
+ <meta name="viewport"  content="width=device-width, initial-scale=1.0"> 
+<title>University website Design -Easy Tutorials</title>
+<link rel="stylesheet" href="university.css">
+<style>
+    .row{
+         margin-top: 5%;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+     }
+.course-col:hover{
+       box-shadow:0  0 20px 0px rgba(0, 0, 0, 0.2);
+   }
+   .campus{
+       width: 80%;
+       text-align: center;
+       margin-top: -50px;
+       align-items: center;
+       transform: translate(20%,50%);
+   }
+  
+   
+   .animal{
+       width: 100%;
+       height: 50vh;
+       display: block;
+   }
+  
+   
+   .facilities{
+       width: 80%;
+       margin: auto;
+       text-align: center;
+       padding-top: 100px;
+   }
+   .facilities-col{
+       flex-basis: 31%;
+       border-radius: 10px;
+       margin-bottom: 5%;
+       text-align: left;
+   }
+   .facilities-col img{
+       width: 100%;
+       border-radius: 10px;
+   }
+   .compus-col img{
+    width: 100%;
+       border-radius: 10px;  
+   }
+   .facilities-col p{
+       padding: 0;
+       text-align: left;
+   }
+   .facilities-col h3{
+       margin-top: 16px;
+       margin-bottom: 15px;
+       text-align: left;
+   }
+   .compus-col img{
+       width: 100%;
+       border-radius: 10px;
+       display: block;
+   }
+   
+   .layer{
+       background: transparent;
+       height: 100%;
+       width: 100%;
+       position: absolute;
+       top: 0;
+   }
+   .layer:hover{
+       background: rgba(226,0,0,0.6);
+   }
+   .layer h3{
+       
+       width: 100%;
+       font-weight: 500;
+       color: #fff;
+       font-size: 20px;
+       bottom: 0;
+       left: 50%;
+       transform: translate(-50% -50%);
+       position: absolute;
+       opacity: 0;
+       transition: 0.5s;
+
+   }
+   .layer:hover h3{
+       bottom: 49%;
+       opacity: 1;
+   }
+   .facilities{
+       width: 80%;
+       margin: auto;
+       text-align: center;
+       padding-top: 100px;
+   }
+   .testimonials{
+       width: 80%;
+       margin: auto;
+       text-align: left;
+       padding-top: 100px;
+       margin-bottom: 30px;
+   }
+   .testimonials-col{
+       flex-basis: 44%;
+       width: 100%;
+       padding: 10px, 12px;
+       display: flex;
+       background-color: lightpink;
+       bottom: 50%;
+       padding-bottom: 35px;
+   }
+   .testimonials-col img{
+       height: 40px;
+       border-radius: 50%;
+   }
+   .testimonials-col:hover img{
+       background: rgba(226,0,0,0.6);
+   }
+   @media(max-width:700px){
+    testimonials-col img{
+     margin-left: 0px;
+       margin-right: 15px;
+   }
+   
+}
+  .ctan{
+      background-image:url(cat.jpg);
+      background-position: center;
+      background-size: cover;
+      bottom: 50%;
+      margin:100px auto;
+      padding: 100px auto;
+      border-radius: 10px;
+      width: 80%;
+     
+
+  }     
+   
+       
+  p::first-letter{
+      font-size: 50px;
+      text-transform: capitalize;
+  }
+      
+  }
+</style>
+</head>
+<body>
+<section class="header" >
+    <nav>
+        <a href="index.html"><img src="my-channel.jpeg" alt=""></a>
+        <div class="nav-link">
+            <ul>
+             <li><a href>HOME</a></li> 
+             <li><a href>ABOUT</a></li>
+             <li><a href>COURSE</a></li>
+             <li><a href>BLOG</a></li>
+             <li><a href>CONTACT</a></li>  
+            </ul>
+        </div>
+    </nav>
+<div class="text-box">
+<h1 style="font-size: 62px;">world's Biggest university</h1>
+<p style="font-size: 18px; margin: 10px 0 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda sunt suscipit facere eum, provident atque nihil quas animi eligendi<br> commodi non expedita a corrupti fugiat, nesciunt velit fuga iste!</p>
+<a class="hero-btn" href="">Visit us To know More</a>
+</div>
+</section>
+<section class="course">
+    <h1 style="color: black;
+    font-size: 36px;
+    font-weight: 600; text-align: center;">course we offerer</h1>
+    <p style=" color: black;
+    font-size: 20px;
+    line-gap-override: 30px;
+    font-weight: 300;
+    line-height: 27px;
+    margin: auto;
+    padding: 10px;text-align: center; width: 1000px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, molestiae temporibus libero illum tenetur modi amet, pariatur inventore architecto et nemo voluptatibus cumque quibusdam corporis non! Rem asperiores architecto commodi.</p>
+    <div style=" margin-top: 2%;
+    display: flex;
+    justify-content: space-between;" class="row">
+    <div style="flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box; margin-left: 10px;" class="course-col">
+    <h3 style="text-align: center; font-weight: 600; margin: 10px 0;">Intermediate</h3>
+    <p style="font-size: 16px; line-height: 25px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde voluptatem ipsam magni enim quasi veritatis facere laudantium iste quod doloribus reiciendis, hic in similique ullam commodi minima odio vitae vero.</p>
+    </div>
+    <div style="margin-left: 10px;margin-right: 10px;flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box" class="course-col">
+        <h3 style="text-align: center;">Degree</h3>
+        <p style="font-size: 16px; line-height: 25px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde voluptatem ipsam magni enim quasi veritatis facere laudantium iste quod doloribus reiciendis, hic in similique ullam commodi minima odio vitae vero.</p>
+        </div>
+        <div style="flex-basis: 31%;
+        background: #fff3f3;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 20px 12px;
+        box-sizing: border-box; margin-right: 10px;" class="course-col">
+            <h3 style="text-align: center; font-weight: 600; margin: 10px 0;">Post Graduate</h3>
+            <p style="font-size: 16px; line-height: 25px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde voluptatem ipsam magni enim quasi veritatis facere laudantium iste quod doloribus reiciendis, hic in similique ullam commodi minima odio vitae vero.</p>
+            </div>
+    </div>
+ <h1 style="color: black;
+ font-size: 36px;
+ font-weight: 600; text-align: center;" >Our Global Campus</h1> 
+ <p style=" color: black;
+ font-size: 20px;
+ line-gap-override: 30px;
+ font-weight: 300;
+ line-height: 27px;
+ margin: auto;
+ padding: 10px;text-align: center; width: 1000px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, ea fugit excepturi architecto voluptates alias vel, incidunt facere iste cumque dolorem beatae aliquam harum expedita quo necessitatibus nemo maiores reprehenderit.</p>
+  <div class="row">
+      <div style=" flex-basis: 32%;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      margin-top: 40px;
+      position: relative;
+      overflow: hidden;" class="compus-col">
+          <img src="cat2.jpg">
+          <div class="layer">
+              <h3>London</h3>
+          </div>
+      </div>
+      <div style=" flex-basis: 32%;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      margin-top: 40px;
+      position: relative;
+      overflow: hidden;" class="compus-col">
+          <img  src="dog.jpg">
+          <div class="layer">
+              <h3>NEW YORK</h3>
+          </div>
+      </div>
+      <div style=" flex-basis: 32%;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      margin-top: 40px;
+      position: relative;
+      overflow: hidden;" class="compus-col">
+          <img src="cat.jpg">
+          <div class="layer">
+              <h3>Washington</h3>
+          </div>
+      </div>
+      
+  </div>
+        </section>
+<div style="display: grid; grid-template-columns: 1fr, 1fr;">
+    <section class="facilities">
+ <h1>Our facilities</h1>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quia suscipit. Facilis laboriosam aperiam libero quasi ut eos, illo odit corrupti! Velit facere adipisci expedita laborum, perspiciatis dolore consequuntur optio.</p>
+ <div class="row">
+<div style=" flex-basis: 31%;
+border-radius: 10px;
+margin-bottom: 5%;
+text-align: left;" class="facilities-col">
+    <img src="cat2.jpg">
+    <h3>world class library</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident minima vel aliquam? Ea hic ex minus voluptatem ut rerum voluptas praesentium, corrupti labore ipsam, consequuntur, enim architecto dolore eos iusto.</p>
+</div>
+    <div style=" flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;" class="facilities-col">
+        <img src="cat2.jpg">
+        <h3>world class library</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident minima vel aliquam? Ea hic ex minus voluptatem ut rerum voluptas praesentium, corrupti labore ipsam, consequuntur, enim architecto dolore eos iusto.</p>
+    </div>
+    <div style=" flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;" class="facilities-col">
+        <img src="cat2.jpg">
+        <h3>world class library</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident minima vel aliquam? Ea hic ex minus voluptatem ut rerum voluptas praesentium, corrupti labore ipsam, consequuntur, enim architecto dolore eos iusto.</p>
+    </div>
+     </div>
+</section>
+<section class="testimonials">
+    <h3>world class library</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident minima vel aliquam? Ea hic ex minus voluptatem ut rerum voluptas praesentium, corrupti labore ipsam, consequuntur, enim architecto dolore eos iusto.</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="channel-1.jpeg">
+                <div>
+                <h1>Christini</h1>
+                <p class="se" style="line-height: 1.5em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatum aliquam exercitationem cupiditate officiis mollitia sequi temporibus esse officia doloribus obcaecati laborum adipisci, non corrupti corporis aut. Cum, voluptatibus labore!</p>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="channel-1.jpeg">
+                <div>
+                <h1>Christini</h1>
+                <p style="text-indent: 0ch;line-height: 1.5em; " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatum aliquam exercitationem cupiditate officiis mollitia sequi temporibus esse officia doloribus obcaecati laborum adipisci, non corrupti corporis aut. Cum, voluptatibus labore!</p>
+                </div>
+            </div>
+        </div>
+
+</section>
+<section>
+
+</section> 
+    </div>
+ <section style="width: 80%; height: 100vh;" class="ctan">
+     <div  class="cta">
+       <h1 style="text-align: center;color: white; padding-top: 30%; padding-left: 10%; font-size: xx-large; margin: auto;">course enrollment
+     </h1>
+     </div>
+ </section>
+<div>
+    <textarea style="width: 50%; margin: auto;"></textarea>
+</div>
+<label id="name">Name</label>
+<input type="text" placeholder="Your Name">
+<button>Submit</button>
+</body>
+</html>

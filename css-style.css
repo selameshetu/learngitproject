@@ -1,0 +1,43 @@
+*, *::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+input,
+button,
+textarea{
+    font: inherit;
+}
+:root{
+    --FF:"Nunito", sans-serif;
+    --FF-HEADING:"Fugaz one", cursive;
+    --FS:clamp(1rem,2.2vh,1.5rem)
+    --BGCOLOR:orange;
+    --BGCOLOR-FADE:rgb(150, 133, 102);
+    --BGIMAGE:linear-gradient(to bottom, var(--BGCOLOR), var(--BGCOLOR-FADE))
+    --BODY-BGCOLOR:white;
+    --FONT-COLOR:black; 
+}
+.offscreen{
+    position: absolute;
+    left: -10000px;
+}
+.nowrap{
+    white-space: nowrap;
+}
+.center{
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: var(--FS);
+    font-family: var(--FF);
+    background-color: var(--BGCOLOR);
+    background-image: var(--BGIMAGE);
+}
